@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    text-align: center;
+    font-family: Poppins;
+
+}
+
+#heading {
+    background-color: rgb(70, 87, 185);
+    height: 75px;
+    font-size: 43px;
+    color: white;
+    line-height: 75px;
+    /*makes the text in center */
+}
+
+.choices {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 38px;
+    margin-top: 50px;
+
+
+
+}
+
+.choice {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.choice:hover {
+    cursor: pointer;
+    border: 2px solid rgb(70, 87, 185);
+}
+
+img {
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
